@@ -5,7 +5,7 @@ switch (opcao)
 {
     case 0:
         show_debug_message("INDO PARA JOGO");
-        room_goto(rm_jogo1);
+        room_goto(rm_capitulo1);
     break;
 
     case 1:

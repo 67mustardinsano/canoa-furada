@@ -5,41 +5,42 @@ draw_set_valign(fa_middle);
 
 draw_set_color(c_white);
 
-draw_text(
-    room_width / 2,
-    70,
-    "CAPÍTULOS"
-);
 
 
 
 
-var quantidade = 7;
+
+var quantidade = 6;
 
 
-var espaco = room_width / quantidade;
+var espaco = room_height / quantidade;
+ var pos_x = room_width / 2;
 
 
-var pos_y = room_height / 2;
 
 
 
 
 for (var i = 0; i < quantidade; i++)
 {
-    var pos_x = espaco * i + espaco / 2;
-
-
-
+   var pos_y = espaco * i + espaco / 2;
+var espaco = 100;
+var inicio_y = 150;
+draw_line(0, 100, room_width, 100);
+draw_line(0, 200, room_width, 200);
+draw_line(0, 300, room_width, 300);
+draw_line(0, 400, room_width, 400);
+draw_line(0, 500, room_width, 500);
+draw_line(0, 600, room_width, 600);
 
     if (i == capitulo_selecionado)
     {
         draw_set_color(make_color_rgb(80, 200, 255));
 
         draw_text(
-            pos_x - 45,
+            pos_x - 110 + seta_offset,
             pos_y,
-            ">"
+            "->"
         );
     }
     else
@@ -53,15 +54,15 @@ for (var i = 0; i < quantidade; i++)
     if (i == 0)
     {
         draw_text(
-            pos_x,
+            pos_x - 490,
             pos_y,
-            "CAPÍTULO 1:"
+            "CAPITULO 1"
         );
 
         draw_text(
             pos_x,
-            pos_y + 45,
-            "O Início"
+            pos_y,
+            "O Inicio"
         );
     }
     else
@@ -71,7 +72,7 @@ for (var i = 0; i < quantidade; i++)
         draw_text(
             pos_x,
             pos_y,
-            "???"
+            "O JOGO"
         );
     }
 }
@@ -79,3 +80,8 @@ for (var i = 0; i < quantidade; i++)
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_color(c_white);
+
+
+draw_rectangle(1200, 20, 1300, 100, true);
+//draw_sprite pra desenhar o sprite dps viu fox verity 67
+//tenta engrossa aí paizao kkkkkkkkkkkkkkkkkkkk 67 verity mogty

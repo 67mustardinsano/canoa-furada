@@ -17,7 +17,7 @@
     {"name":"UI","order":3,"path":"folders/sprites/UI.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_capitulos","order":3,"path":"objects/obj_capitulos/obj_capitulos.yy",},
+    {"name":"obj_capitulos","order":2,"path":"objects/obj_capitulos/obj_capitulos.yy",},
     {"name":"obj_config","order":1,"path":"objects/obj_config/obj_config.yy",},
     {"name":"obj_menu_cursor","order":1,"path":"objects/obj_menu_cursor/obj_menu_cursor.yy",},
     {"name":"obj_multiplayer","order":2,"path":"objects/obj_multiplayer/obj_multiplayer.yy",},

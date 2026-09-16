@@ -10,8 +10,8 @@
   "name":"obj_capitulos",
   "overriddenProperties":[],
   "parent":{
-    "name":"sistema",
-    "path":"folders/objetos/sistema.yy",
+    "name":"menu",
+    "path":"folders/objetos/menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

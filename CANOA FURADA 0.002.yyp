@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"CANOA FURADA 0.001",
+  "%Name":"CANOA FURADA 0.002",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -36,7 +36,7 @@
   "MetaData":{
     "IDEVersion":"2026.0.0.16",
   },
-  "name":"CANOA FURADA 0.001",
+  "name":"CANOA FURADA 0.002",
   "resources":[
     {"id":{"name":"fnt_determination","path":"fonts/fnt_determination/fnt_determination.yy",},},
     {"id":{"name":"obj_capitulos","path":"objects/obj_capitulos/obj_capitulos.yy",},},
@@ -46,10 +46,10 @@
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_multiplayer","path":"objects/obj_multiplayer/obj_multiplayer.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"rm_capitulo1","path":"rooms/rm_capitulo1/rm_capitulo1.yy",},},
     {"id":{"name":"rm_configuracoes","path":"rooms/rm_configuracoes/rm_configuracoes.yy",},},
     {"id":{"name":"rm_extras","path":"rooms/rm_extras/rm_extras.yy",},},
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
-    {"id":{"name":"rm_jogo1","path":"rooms/rm_jogo1/rm_jogo1.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_multiplayer","path":"rooms/rm_multiplayer/rm_multiplayer.yy",},},
     {"id":{"name":"scr_config","path":"scripts/scr_config/scr_config.yy",},},
@@ -63,7 +63,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"rm_jogo1","path":"rooms/rm_jogo1/rm_jogo1.yy",},},
+    {"roomId":{"name":"rm_capitulo1","path":"rooms/rm_capitulo1/rm_capitulo1.yy",},},
     {"roomId":{"name":"rm_multiplayer","path":"rooms/rm_multiplayer/rm_multiplayer.yy",},},
     {"roomId":{"name":"rm_configuracoes","path":"rooms/rm_configuracoes/rm_configuracoes.yy",},},
     {"roomId":{"name":"rm_extras","path":"rooms/rm_extras/rm_extras.yy",},},

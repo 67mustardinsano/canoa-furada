@@ -1,10 +1,8 @@
-
-
 seta_offset += 0.5 * seta_direcao;
 
 if (seta_offset > 8)
 {
-    seta_direcao = -1;
+	seta_direcao = -1;
 }
 
 if (seta_offset < 0)
@@ -12,61 +10,24 @@ if (seta_offset < 0)
     seta_direcao = 1;
 }
 
-
-
-
-if (
-    (!global.config_teclado_wasd && keyboard_check_pressed(vk_left))
-    ||
-    (global.config_teclado_wasd && keyboard_check_pressed(ord("A")))
-)
+if ((!global.config_teclado_wasd && keyboard_check_pressed(vk_up)) || (global.config_teclado_wasd && keyboard_check_pressed(ord("W"))))
 {
+	audio_play_sound(snd_hover, 1, false);
     capitulo_selecionado -= 1;
-
-    if (capitulo_selecionado < 0)
-    {
-        capitulo_selecionado = 6;
-    }
-
-    audio_play_sound(snd_hover, 1, false);
 }
 
-
-if (
-    (!global.config_teclado_wasd && keyboard_check_pressed(vk_right))
-    ||
-    (global.config_teclado_wasd && keyboard_check_pressed(ord("D")))
-)
+if ((!global.config_teclado_wasd && keyboard_check_pressed(vk_down)) || (global.config_teclado_wasd && keyboard_check_pressed(ord("S"))))
 {
+	audio_play_sound(snd_hover, 1, false);
     capitulo_selecionado += 1;
-
-    if (capitulo_selecionado > 6)
-    {
-        capitulo_selecionado = 0;
-    }
-
-    audio_play_sound(snd_hover, 1, false);
 }
 
+keyboard_check_pressed(ord("Z")) keyboard_check_pressed(vk_enter)
 
+capitulo_selecionado = clamp(capitulo_selecionado, 0, 5);
 
-
-var confirmar =
-    (!global.config_teclado_wasd && keyboard_check_pressed(ord("Z")))
-    ||
-    (global.config_teclado_wasd && keyboard_check_pressed(vk_enter));
-
-
-if (confirmar)
+if ((keyboard_check_pressed(ord("Z")) || keyboard_check_pressed(vk_enter)) && capitulo_selecionado == 0)
 {
-    audio_play_sound(snd_select, 1, false);
-
-    if (capitulo_selecionado == 0)
-    {
-        show_debug_message("CAPÍTULO 1 SELECIONADO");
-    }
-    else
-    {
-        show_debug_message("CAPÍTULO AINDA NÃO DISPONÍVEL");
-    }
+	audio_play_sound(snd_select, 1, false);
+    room_goto(rm_capitulo1);
 }

@@ -1,0 +1,17 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Scripts","order":1,"path":"folders/Scripts.yy",},
+    {"name":"Discord","order":1,"path":"folders/Scripts/Discord.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_capitulos","order":2,"path":"objects/obj_capitulos/obj_capitulos.yy",},
+    {"name":"obj_internet","order":1,"path":"objects/obj_internet/obj_internet.yy",},
+    {"name":"obj_menu_cursor","order":1,"path":"objects/obj_menu_cursor/obj_menu_cursor.yy",},
+    {"name":"obj_multiplayer","order":3,"path":"objects/obj_multiplayer/obj_multiplayer.yy",},
+    {"name":"scr_discord_free_app","order":4,"path":"scripts/scr_discord_free_app/scr_discord_free_app.yy",},
+    {"name":"scr_discord_init_app","order":5,"path":"scripts/scr_discord_init_app/scr_discord_init_app.yy",},
+    {"name":"scr_discord_init_dll","order":6,"path":"scripts/scr_discord_init_dll/scr_discord_init_dll.yy",},
+    {"name":"scr_discord_update_presence","order":7,"path":"scripts/scr_discord_update_presence/scr_discord_update_presence.yy",},
+    {"name":"Script8","order":2,"path":"scripts/Script8/Script8.yy",},
+  ],
+}

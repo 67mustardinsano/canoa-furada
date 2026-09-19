@@ -21,7 +21,7 @@ if (opcao_chefe == 1)
 else
 {
     draw_set_color(c_white);
-}draw_text(145,240,"IMPERADOR-DE-PO");
+}draw_text(145,240,"IMPERADOR-SEM-DO");
 
 if (opcao_chefe == 2)
 {draw_set_color(make_color_rgb(80, 200, 255));

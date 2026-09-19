@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"canoa furadity",
+  "%Name":"aonac",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -40,7 +40,7 @@
   "MetaData":{
     "IDEVersion":"2026.0.0.16",
   },
-  "name":"canoa furadity",
+  "name":"aonac",
   "resources":[
     {"id":{"name":"fnt_determination","path":"fonts/fnt_determination/fnt_determination.yy",},},
     {"id":{"name":"obj_capitulos","path":"objects/obj_capitulos/obj_capitulos.yy",},},

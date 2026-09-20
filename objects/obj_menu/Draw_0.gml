@@ -42,6 +42,8 @@ if (room == rm_menu)
 
     var inicio_y = 240;
     var espacamento = 65;
+draw_set_color (c_dkgray);
+draw_text(room_width / 1.3, 630, "ESC para voltar.");
 
     draw_set_halign(fa_left);
 
@@ -94,7 +96,7 @@ if (room == rm_extras)
         "CHEFES",
         "AREAS",
         "PERSONAGENS",
-        "VOLTAR"
+
     ];
 
     draw_set_halign(fa_left);
@@ -357,12 +359,7 @@ if (room == rm_configuracoes)
 
         draw_set_halign(fa_left);
 
-        draw_text(
-            x_inicio + 45,
-            y_voltar,
-            "VOLTAR"
-        );
-    }
+	}
     else
     {
         draw_set_halign(fa_center);
@@ -569,23 +566,10 @@ if (room == rm_configuracoes)
                 x_seta + seta_offset,
                 y_voltar,
                 "->"
-            );
-        }
-        else
-        {
-            draw_set_color(c_white);
-        }
-
-        draw_set_halign(fa_left);
-
-        draw_text(
-            x_nome,
-            y_voltar,
-            "VOLTAR"
-        );
-    }
-}
+            );}
+        
 
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_color(c_white);
+	}}

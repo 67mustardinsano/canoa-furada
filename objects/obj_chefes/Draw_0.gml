@@ -23,16 +23,6 @@ else
     draw_set_color(c_white);
 }draw_text(145,240,"IMPERADOR-SEM-DO");
 
-if (opcao_chefe == 2)
-{draw_set_color(make_color_rgb(80, 200, 255));
-draw_text(100 + seta_offset,300,"->");
-}
-else
-{
-draw_set_color(c_white);
-}
-
-draw_text(145,300,"VOLTAR");
 
 //       .-'''-.
 //     .'       '.

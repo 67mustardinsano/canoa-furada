@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"aonac",
+  "%Name":"oie",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -20,8 +20,6 @@
     {"$GMFolder":"","%Name":"rooms do jogo","folderPath":"folders/Rooms/rooms do jogo.yy","name":"rooms do jogo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"rooms menu","folderPath":"folders/Rooms/rooms menu.yy","name":"rooms menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"script","folderPath":"folders/script.yy","name":"script","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Discord","folderPath":"folders/Scripts/Discord.yy","name":"Discord","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sounds","folderPath":"folders/sounds.yy","name":"sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menu","folderPath":"folders/sprites/menu.yy","name":"menu","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -40,7 +38,7 @@
   "MetaData":{
     "IDEVersion":"2026.0.0.16",
   },
-  "name":"aonac",
+  "name":"oie",
   "resources":[
     {"id":{"name":"fnt_determination","path":"fonts/fnt_determination/fnt_determination.yy",},},
     {"id":{"name":"obj_capitulos","path":"objects/obj_capitulos/obj_capitulos.yy",},},
@@ -61,12 +59,7 @@
     {"id":{"name":"rm_multiplayer","path":"rooms/rm_multiplayer/rm_multiplayer.yy",},},
     {"id":{"name":"scr_config","path":"scripts/scr_config/scr_config.yy",},},
     {"id":{"name":"scr_configuracoes","path":"scripts/scr_configuracoes/scr_configuracoes.yy",},},
-    {"id":{"name":"scr_discord_free_app","path":"scripts/scr_discord_free_app/scr_discord_free_app.yy",},},
-    {"id":{"name":"scr_discord_init_app","path":"scripts/scr_discord_init_app/scr_discord_init_app.yy",},},
-    {"id":{"name":"scr_discord_init_dll","path":"scripts/scr_discord_init_dll/scr_discord_init_dll.yy",},},
-    {"id":{"name":"scr_discord_update_presence","path":"scripts/scr_discord_update_presence/scr_discord_update_presence.yy",},},
     {"id":{"name":"scr_menu","path":"scripts/scr_menu/scr_menu.yy",},},
-    {"id":{"name":"Script8","path":"scripts/Script8/Script8.yy",},},
     {"id":{"name":"snd_hover","path":"sounds/snd_hover/snd_hover.yy",},},
     {"id":{"name":"snd_lingua","path":"sounds/snd_lingua/snd_lingua.yy",},},
     {"id":{"name":"snd_select","path":"sounds/snd_select/snd_select.yy",},},

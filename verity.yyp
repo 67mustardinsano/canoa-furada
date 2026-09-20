@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"oie",
+  "%Name":"verity",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -38,9 +38,11 @@
   "MetaData":{
     "IDEVersion":"2026.0.0.16",
   },
-  "name":"oie",
+  "name":"verity",
   "resources":[
     {"id":{"name":"fnt_determination","path":"fonts/fnt_determination/fnt_determination.yy",},},
+    {"id":{"name":"obj_arena","path":"objects/obj_arena/obj_arena.yy",},},
+    {"id":{"name":"obj_batalha","path":"objects/obj_batalha/obj_batalha.yy",},},
     {"id":{"name":"obj_capitulos","path":"objects/obj_capitulos/obj_capitulos.yy",},},
     {"id":{"name":"obj_chefes","path":"objects/obj_chefes/obj_chefes.yy",},},
     {"id":{"name":"obj_config","path":"objects/obj_config/obj_config.yy",},},
@@ -50,6 +52,7 @@
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_multiplayer","path":"objects/obj_multiplayer/obj_multiplayer.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_uniao","path":"objects/obj_uniao/obj_uniao.yy",},},
     {"id":{"name":"rm_capitulo1","path":"rooms/rm_capitulo1/rm_capitulo1.yy",},},
     {"id":{"name":"rm_chefes","path":"rooms/rm_chefes/rm_chefes.yy",},},
     {"id":{"name":"rm_configuracoes","path":"rooms/rm_configuracoes/rm_configuracoes.yy",},},

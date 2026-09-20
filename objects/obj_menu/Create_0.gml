@@ -1,8 +1,6 @@
 opcao = 0;
 mudando_room = false;
 opcao_extras = 0;
-// hacker = no
-// fowo = ban
 
 seta_offset = 0;
 seta_direcao = 1;

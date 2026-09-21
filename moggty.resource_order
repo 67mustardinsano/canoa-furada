@@ -1,10 +1,16 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"faces","order":1,"path":"folders/sprites/faces.yy",},
+  ],
   "ResourceOrderSettings":[
+    {"name":"fnt_nomes","order":3,"path":"fonts/fnt_nomes/fnt_nomes.yy",},
+    {"name":"fnt_textos","order":1,"path":"fonts/fnt_textos/fnt_textos.yy",},
+    {"name":"fnt_TP_e_HP","order":2,"path":"fonts/fnt_TP_e_HP/fnt_TP_e_HP.yy",},
     {"name":"obj_arena","order":2,"path":"objects/obj_arena/obj_arena.yy",},
     {"name":"obj_capitulos","order":2,"path":"objects/obj_capitulos/obj_capitulos.yy",},
     {"name":"obj_chefes","order":4,"path":"objects/obj_chefes/obj_chefes.yy",},
     {"name":"obj_internet","order":1,"path":"objects/obj_internet/obj_internet.yy",},
+    {"name":"obj_LeoIcon","order":1,"path":"objects/obj_LeoIcon/obj_LeoIcon.yy",},
     {"name":"obj_menu_cursor","order":1,"path":"objects/obj_menu_cursor/obj_menu_cursor.yy",},
     {"name":"obj_multiplayer","order":3,"path":"objects/obj_multiplayer/obj_multiplayer.yy",},
     {"name":"obj_uniao","order":1,"path":"objects/obj_uniao/obj_uniao.yy",},

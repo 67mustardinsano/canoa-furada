@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"verity",
+  "%Name":"moggty",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -22,6 +22,7 @@
     {"$GMFolder":"","%Name":"script","folderPath":"folders/script.yy","name":"script","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sounds","folderPath":"folders/sounds.yy","name":"sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"faces","folderPath":"folders/sprites/faces.yy","name":"faces","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menu","folderPath":"folders/sprites/menu.yy","name":"menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"player","folderPath":"folders/sprites/player.yy","name":"player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/sprites/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -38,9 +39,12 @@
   "MetaData":{
     "IDEVersion":"2026.0.0.16",
   },
-  "name":"verity",
+  "name":"moggty",
   "resources":[
     {"id":{"name":"fnt_determination","path":"fonts/fnt_determination/fnt_determination.yy",},},
+    {"id":{"name":"fnt_nomes","path":"fonts/fnt_nomes/fnt_nomes.yy",},},
+    {"id":{"name":"fnt_textos","path":"fonts/fnt_textos/fnt_textos.yy",},},
+    {"id":{"name":"fnt_TP_e_HP","path":"fonts/fnt_TP_e_HP/fnt_TP_e_HP.yy",},},
     {"id":{"name":"obj_arena","path":"objects/obj_arena/obj_arena.yy",},},
     {"id":{"name":"obj_batalha","path":"objects/obj_batalha/obj_batalha.yy",},},
     {"id":{"name":"obj_capitulos","path":"objects/obj_capitulos/obj_capitulos.yy",},},
@@ -48,6 +52,7 @@
     {"id":{"name":"obj_config","path":"objects/obj_config/obj_config.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
     {"id":{"name":"obj_internet","path":"objects/obj_internet/obj_internet.yy",},},
+    {"id":{"name":"obj_LeoIcon","path":"objects/obj_LeoIcon/obj_LeoIcon.yy",},},
     {"id":{"name":"obj_menu_cursor","path":"objects/obj_menu_cursor/obj_menu_cursor.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_multiplayer","path":"objects/obj_multiplayer/obj_multiplayer.yy",},},
@@ -66,6 +71,7 @@
     {"id":{"name":"snd_hover","path":"sounds/snd_hover/snd_hover.yy",},},
     {"id":{"name":"snd_lingua","path":"sounds/snd_lingua/snd_lingua.yy",},},
     {"id":{"name":"snd_select","path":"sounds/snd_select/snd_select.yy",},},
+    {"id":{"name":"spr_LeoIcon","path":"sprites/spr_LeoIcon/spr_LeoIcon.yy",},},
     {"id":{"name":"spr_memoria","path":"sprites/spr_memoria/spr_memoria.yy",},},
     {"id":{"name":"spr_protecao","path":"sprites/spr_protecao/spr_protecao.yy",},},
     {"id":{"name":"spr_superacao","path":"sprites/spr_superacao/spr_superacao.yy",},},

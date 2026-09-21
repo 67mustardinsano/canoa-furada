@@ -1,0 +1,16 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_arena","order":2,"path":"objects/obj_arena/obj_arena.yy",},
+    {"name":"obj_capitulos","order":2,"path":"objects/obj_capitulos/obj_capitulos.yy",},
+    {"name":"obj_chefes","order":4,"path":"objects/obj_chefes/obj_chefes.yy",},
+    {"name":"obj_internet","order":1,"path":"objects/obj_internet/obj_internet.yy",},
+    {"name":"obj_menu_cursor","order":1,"path":"objects/obj_menu_cursor/obj_menu_cursor.yy",},
+    {"name":"obj_multiplayer","order":3,"path":"objects/obj_multiplayer/obj_multiplayer.yy",},
+    {"name":"obj_uniao","order":1,"path":"objects/obj_uniao/obj_uniao.yy",},
+    {"name":"rm_chefes","order":1,"path":"rooms/rm_chefes/rm_chefes.yy",},
+    {"name":"spr_memoria","order":2,"path":"sprites/spr_memoria/spr_memoria.yy",},
+    {"name":"spr_protecao","order":1,"path":"sprites/spr_protecao/spr_protecao.yy",},
+    {"name":"spr_superacao","order":3,"path":"sprites/spr_superacao/spr_superacao.yy",},
+  ],
+}

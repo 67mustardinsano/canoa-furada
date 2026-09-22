@@ -2,9 +2,8 @@ draw_set_font(fnt_determination);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
-var espaco = room_width / quantidade_personagens;
-var pos_y = room_height / 2 + 240;
-
+var espaco = 640 / quantidade_personagens;
+var pos_y = 400;
 for (var i=0; i < quantidade_personagens; i++)
 {var pos_x = espaco * i + espaco / 2;
 	if (i == personagem_atual)

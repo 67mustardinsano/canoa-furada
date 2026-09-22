@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_superacao",
   "bboxMode":0,
-  "bbox_bottom":31,
-  "bbox_left":6,
-  "bbox_right":38,
+  "bbox_bottom":15,
+  "bbox_left":3,
+  "bbox_right":19,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":16,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"66f79aec-0e13-4e76-8ac6-3fc1ec147f95","blendMode":0,"displayName":"default","isLocked":false,"name":"66f79aec-0e13-4e76-8ac6-3fc1ec147f95","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":45,
+  "width":23,
 }

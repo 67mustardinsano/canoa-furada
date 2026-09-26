@@ -1,9 +1,8 @@
 if (instance_exists(obj_batalha))
-{
-    if (obj_batalha.turno == 1)
+{if (obj_batalha.turno == 1)
     {visible = true;
-    }else{visible = false;}}
-
+}else{
+visible = false;}}
 if (instance_exists(obj_batalha) && obj_batalha.turno == 1)
 {
     if (keyboard_check(vk_left))
@@ -20,8 +19,8 @@ if (instance_exists(obj_batalha) && obj_batalha.turno == 1)
 
 if (instance_exists(obj_arena))
 {
-    var margem_x = 14.5;
-    var margem_y = 10;
+var margem_x = 10;
+var margem_y = 10;
     var esquerda = obj_arena.x - obj_arena.largura / 2 + margem_x;
     var direita = obj_arena.x + obj_arena.largura / 2 - margem_x;
     var cima = obj_arena.y - obj_arena.altura / 2 + margem_y;
@@ -38,3 +37,5 @@ if (instance_exists(obj_arena))
 
     if (y > baixo)
     {y = baixo;}}
+if (vida < 0)
+{vida = 0;}

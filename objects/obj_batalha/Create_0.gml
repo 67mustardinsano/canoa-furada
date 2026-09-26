@@ -1,7 +1,7 @@
-turno= 0;
-personagem_atual= 0;
+turno = 0;
+personagem_atual = 0;
 quantidade_personagens = 3;
-window_set_size(1280, 960);
+window_set_size(1280, 720);
 if (!view_enabled)
 {view_enabled = true;}
 camera = camera_create_view(0, 0, 640, 480);

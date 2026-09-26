@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_uniao",
+  "%Name":"obj_ataque",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_uniao",
+  "name":"obj_ataque",
   "overriddenProperties":[],
   "parent":{
-    "name":"player",
-    "path":"folders/objetos/player.yy",
+    "name":"TESTES (DEPOIS NOIS TIRA)",
+    "path":"folders/objetos/TESTES (DEPOIS NOIS TIRA).yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_uniao",
-    "path":"sprites/spr_uniao/spr_uniao.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

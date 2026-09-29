@@ -44,6 +44,7 @@ if (room == rm_menu)
     var espacamento = 65;
 draw_set_color (c_dkgray);
 draw_text(room_width / 1.3, 630, "ESC para voltar.");
+draw_text(room_width / 1.5, 670, "Tela Cheia aparece ao iniciar o jogo.");
 
     draw_set_halign(fa_left);
 

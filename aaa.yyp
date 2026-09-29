@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"coração",
+  "%Name":"aaa",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -12,11 +12,11 @@
   "Folders":[
     {"$GMFolder":"","%Name":"fonts","folderPath":"folders/fonts.yy","name":"fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objetos","folderPath":"folders/objetos.yy","name":"objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"TESTES (DEPOIS NOIS TIRA)","folderPath":"folders/objetos/TESTES (DEPOIS NOIS TIRA).yy","name":"TESTES (DEPOIS NOIS TIRA)","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"jogo","folderPath":"folders/objetos/jogo.yy","name":"jogo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menu","folderPath":"folders/objetos/menu.yy","name":"menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"player","folderPath":"folders/objetos/player.yy","name":"player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sistema","folderPath":"folders/objetos/sistema.yy","name":"sistema","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"TESTES (DEPOIS NOIS TIRA)","folderPath":"folders/objetos/TESTES (DEPOIS NOIS TIRA).yy","name":"TESTES (DEPOIS NOIS TIRA)","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"rooms do jogo","folderPath":"folders/Rooms/rooms do jogo.yy","name":"rooms do jogo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"rooms menu","folderPath":"folders/Rooms/rooms menu.yy","name":"rooms menu","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -40,7 +40,7 @@
   "MetaData":{
     "IDEVersion":"2026.0.0.16",
   },
-  "name":"coração",
+  "name":"aaa",
   "resources":[
     {"id":{"name":"fnt_determination","path":"fonts/fnt_determination/fnt_determination.yy",},},
     {"id":{"name":"fnt_nomes","path":"fonts/fnt_nomes/fnt_nomes.yy",},},
